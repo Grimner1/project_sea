@@ -3,7 +3,7 @@
 }
 
 body {
-    position: relative;
+    /* position: relative; */
     display: block;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
 }
 
 #body1 {
-    /* display: flex; */
+    display: flex;
     position: relative;
     padding: 0;
     margin-left: auto;
