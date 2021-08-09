@@ -1,0 +1,125 @@
+body {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(231, 185, 125) url(map.jpg) no-repeat;
+    background-size: cover;
+    font-size: 1em;
+}
+
+#board {
+    position: relative;
+    display: block;
+    height: 850px;
+    width: 770px;
+    /* height: 80%;
+    width: 45%; */
+    background: rgba(218, 148, 42, 0.623);
+    margin: 0;
+    left: 600px;
+    top: 0;
+    max-width: 800px;
+    max-height: 850px;
+    border-radius: 5%;
+}
+
+table {
+    position: relative;
+    display: flex;
+    height: 85%;
+    width: 98%;
+    top: 1%;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+}
+
+td {
+    border: 2px solid rgba(39, 42, 211, 0.507);
+    border-radius: 10%;
+    background: rgba(63, 112, 216, 0.548);
+    width: 86px;
+    height: 86px;
+}
+
+form {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    padding: 0;
+    border: 2px solid rgba(136, 87, 31, 0.705);
+    border-radius: 10%;
+}
+
+#input {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+#fire {
+    position: relative;
+    width: 55px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    background-color: rgb(255, 8, 8);
+    font-weight: 700;
+}
+
+.hit {
+    background: url('ship.png') no-repeat;
+    background-size: cover;
+}
+
+.miss {
+    background: url('miss.png') no-repeat;
+    background-size: cover;
+}
+
+#message {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 70px;
+    border: 5px solid rgba(168, 95, 46, 0.473);
+    top: 35%;
+    left: 120px;
+    background: rgba(175, 111, 28, 0.726);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(13, 55, 243);
+    letter-spacing: 2px;
+    margin: 0;
+    bottom: 0;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.A0 {
+    color: rgb(7, 90, 14);
+    border-radius: 0%;
+    background: rgba(8, 182, 31, 0.527);
+    border-color: rgba(110, 117, 110, 0.479);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#z00 {
+    border: 0px;
+    background: rgba(0, 100, 0, 0);
+}
+
+#input {
+    background: rgba(231, 97, 53, 0.438);
+    text-align: center;
+}
